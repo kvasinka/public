@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Denník N — rubrika Rodina a vzťahy (júl 2025 – jún 2026)</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  :root{--red:#e8112d;--ink:#16181d;--muted:#666;--line:#e7e7ea;--bg:#fafafa;--card:#fff;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px 80px;}
+  header{background:var(--ink);color:#fff;padding:46px 0 40px;margin-bottom:8px;}
+  header .wrap{padding-top:0;padding-bottom:0;}
+  .kicker{color:var(--red);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:12px;}
+  h1{font-size:34px;line-height:1.18;margin:8px 0 10px;}
+  header p{color:#c9ccd3;margin:0;max-width:720px;}
+  h2{font-size:25px;margin:54px 0 6px;padding-top:18px;border-top:3px solid var(--ink);}
+  h3{font-size:18px;margin:34px 0 6px;color:var(--ink);}
+  h4{font-size:15px;margin:24px 0 4px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;}
+  p{margin:10px 0;}
+  .muted{color:var(--muted);font-size:14px;}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0;}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;}
+  .stat .v{font-size:26px;font-weight:700;color:var(--red);}
+  .stat .l{font-size:12.5px;color:var(--muted);}
+  .chart{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 14px 6px;margin:16px 0;}
+  .cap{font-size:13px;color:var(--muted);margin:2px 4px 12px;}
+  .takeaway{background:#fff;border-left:4px solid var(--red);padding:12px 16px;margin:16px 0;border-radius:0 8px 8px 0;box-shadow:0 1px 2px rgba(0,0,0,.04);}
+  .takeaway b{color:var(--ink);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;background:var(--card);}
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:10px 0;}
+  th,td{padding:8px 11px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--line);}
+  th{background:#f3f3f5;font-weight:600;position:sticky;top:0;font-size:12px;color:#444;text-align:right;}
+  th:first-child,td.nm{text-align:left;}
+  td.nm{font-weight:600;}
+  tbody tr:hover{background:#fcf3f4;}
+  .twocol{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  @media(max-width:820px){.twocol{grid-template-columns:1fr;}h1{font-size:27px;}}
+  ul.clean li{margin:6px 0;}
+  footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);margin-top:60px;padding-top:18px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="kicker">Denník N · interná analytika</div>
+    <h1>Rubrika Rodina a vzťahy:<br>čo funguje a čo nie</h1>
+    <p>Samostatná hĺbková analýza rubriky Rodina a vzťahy za obdobie júl 2025 – jún 2026: výkonnosť pravidelných redaktorov a tém z pohľadu konverzií, dosahu a lojality, plus portfóliové matice „čoho písať viac a čoho menej".</p>
+  </div>
+</header>
+<div class="wrap">
+
+  <h2 id="vykon">1 · Výkonnosť autorov a tém</h2>
+  <p>Analýza 825 bežných článkov v rubrike Rodina a vzťahy, 9 pravidelných redaktorov (po konzultácii: Obradovičová, Tanoczká, Chrastová, Shemesh, Gehrerová, Kačmár, Strýčková, Červený a Boškovič) a 30 tém. Inštitucionálne podpisy (Poradňa N, Heroine…), syndikované zdroje a kreslení autori sú vylúčení; Kristína Böhmer a malí autori (pod prahom) tiež.</p>
+  <div class="cards">
+    <div class="stat"><div class="v">3.82</div><div class="l">konv./článok <span style="color:#999">(web: 1.84)</span></div></div>
+    <div class="stat"><div class="v">2</div><div class="l">medián konverzií</div></div>
+    <div class="stat"><div class="v">17 743</div><div class="l">priem. pageviews/článok</div></div>
+    <div class="stat"><div class="v">55.4%</div><div class="l">predplatiteľov <span style="color:#999">(web: 50.5%)</span></div></div>
+  </div>
+  <div class="takeaway"><b>Rodina a vzťahy je konverzná koruna Denníka N.</b> Na článok konvertuje na dvojnásobku priemeru webu (3.82 vs 1.84) a zároveň má vyšší podiel predplatiteľov v čítanosti (55.4 % vs 50.5 %) — čiže je súčasne silný <b>akvizičný</b> aj <b>retenčný</b> motor. Prakticky celá rubrika konvertuje nad priemerom webu; otázkou je len relatívne poradie. Jadro tvoria osobné a ľudské príbehy, duševné zdravie, vzťahy, rodičovstvo, násilie/zneužívanie a zdravotné príbehy.</div>
+
+  <h4>Celkový výkon autorov (súčty za rok)</h4>
+  <p>Popri priemernej konverzii na článok (tabuľka nižšie) tu meriame <b>celkový prínos</b> — súčet konverzií a súčet pageviews za celé obdobie.</p>
+  <div class="chart"><div id="c_authtot"></div></div>
+  <div class="cap">Os X = pageviews spolu (celkový dosah), os Y = konverzie spolu, veľkosť = počet článkov, farba = % predplatiteľov.</div>
+  <div class="tablewrap"><table><thead><tr><th>Autor</th><th>Články</th><th>Konverzie spolu</th><th>Pageviews spolu</th><th>Konv./čl.</th><th>% predpl.</th></tr></thead><tbody><tr><td class="nm">Beáta Obradovičová</td><td>118</td><td>654</td><td>2 542 168</td><td>5.54</td><td>51</td></tr><tr><td class="nm">Zoran Boškovič</td><td>35</td><td>294</td><td>969 254</td><td>8.40</td><td>51</td></tr><tr><td class="nm">Iveta Tanoczká</td><td>116</td><td>277</td><td>1 564 184</td><td>2.39</td><td>55</td></tr><tr><td class="nm">Dominika Chrastová</td><td>75</td><td>256</td><td>1 051 850</td><td>3.41</td><td>57</td></tr><tr><td class="nm">Michal Červený</td><td>42</td><td>188</td><td>976 989</td><td>4.48</td><td>57</td></tr><tr><td class="nm">Rastislav Kačmár</td><td>25</td><td>95</td><td>529 968</td><td>3.80</td><td>58</td></tr><tr><td class="nm">Katarína Strýčková</td><td>24</td><td>65</td><td>326 616</td><td>2.71</td><td>61</td></tr><tr><td class="nm">Jana Shemesh</td><td>46</td><td>39</td><td>395 412</td><td>0.85</td><td>60</td></tr><tr><td class="nm">Ria Gehrerová</td><td>46</td><td>29</td><td>402 337</td><td>0.63</td><td>62</td></tr></tbody></table></div>
+  <div class="takeaway"><b>Ako čítať a čo robiť:</b> v absolútnych číslach rubriku najviac ťahá <b>Beáta Obradovičová</b> (654 konverzií, 2,5 mil. pageviews) — vysoký objem aj vysoká konverzia na článok. Veľký celkový prínos majú aj <b>Iveta Tanoczká</b> (objem) a <b>Dominika Chrastová</b>. <b>Zoran Boškovič</b> má extrémnu konverziu na kus, ale na malej vzorke, takže v súčtoch je nižšie. Rozdiel oproti tabuľke „na článok": objem nesie celkový výkon, efektivita ukazuje potenciál.</div>
+
+  <h4>Autori s najväčším pomerom konverzie NA JEDEN ČLÁNOK (mali by písať viac?)</h4>
+  <div class="tablewrap"><table><thead><tr><th>Autor</th><th>Články</th><th>Konv. spolu</th><th>Konv./čl.</th><th>Medián</th><th>Pageviews/čl.</th><th>% predpl.</th><th>Konv./1000 PV</th><th>Min./čít.</th></tr></thead><tbody><tr><td class="nm">Zoran Boškovič</td><td>35</td><td>294</td><td>8.40</td><td>5.0</td><td>27 693</td><td>51.1</td><td>0.28</td><td>4.25</td></tr><tr><td class="nm">Beáta Obradovičová</td><td>118</td><td>654</td><td>5.54</td><td>3.0</td><td>21 544</td><td>51.5</td><td>0.24</td><td>2.77</td></tr><tr><td class="nm">Michal Červený</td><td>42</td><td>188</td><td>4.48</td><td>3.0</td><td>23 262</td><td>57.3</td><td>0.18</td><td>3.42</td></tr><tr><td class="nm">Rastislav Kačmár</td><td>25</td><td>95</td><td>3.80</td><td>2.0</td><td>21 199</td><td>57.6</td><td>0.17</td><td>3.17</td></tr><tr><td class="nm">Dominika Chrastová</td><td>75</td><td>256</td><td>3.41</td><td>2.0</td><td>14 025</td><td>57.2</td><td>0.25</td><td>2.27</td></tr><tr><td class="nm">Katarína Strýčková</td><td>24</td><td>65</td><td>2.71</td><td>0.0</td><td>13 609</td><td>61.1</td><td>0.11</td><td>2.69</td></tr><tr><td class="nm">Iveta Tanoczká</td><td>116</td><td>277</td><td>2.39</td><td>1.5</td><td>13 484</td><td>55.4</td><td>0.17</td><td>2.40</td></tr><tr><td class="nm">Jana Shemesh</td><td>46</td><td>39</td><td>0.85</td><td>0.0</td><td>8 596</td><td>59.9</td><td>0.09</td><td>2.43</td></tr><tr><td class="nm">Ria Gehrerová</td><td>46</td><td>29</td><td>0.63</td><td>0.0</td><td>8 746</td><td>61.6</td><td>0.03</td><td>1.87</td></tr></tbody></table></div>
+  <div class="takeaway"><b>Tri kroky z tabuľky:</b> (1) z Obradovičovej modelu (vysoký objem aj konverzia) spraviť vzor pre rubriku; (2) posilniť dosah Dominike Chrastovej — konvertuje efektívne; (3) rubriky Shemesh a Gehrerovej brať ako retenčný, nie akvizičný obsah. Pri autoroch s mediánom 0 (Strýčková) brať priemer opatrne, rovnako pri Boškovičovi (malá vzorka).</div>
+
+  <h3>Témy rubriky: čo funguje a čo nie</h3>
+  <div class="chart"><div id="c_sptag"></div></div>
+  <div class="cap">Témy v rubrike Rodina a vzťahy (aspoň 20 článkov). Vľavo hore = nišové konverzné zlato, vpravo hore = veľký dosah aj konverzie.</div>
+  <h4>Ako čítať tento graf a čo robiť</h4>
+  <ul class="clean">
+    <li><b>Hviezdy — dosah aj konverzia (vpravo hore):</b> <b>Rozhovory</b> (329 článkov, 4,4 konv./čl.), <b>Životy mužov</b> (255 čl., 5,5), <b>Duševné zdravie</b> (391 čl., 4,3), <b>Vzťahy</b> (400 čl., 4,0), <b>Životy žien</b> (431 čl., 3,8), <b>Heroine</b>, <b>Mladí</b>, <b>LGBTI+</b>, <b>Cesta k zdraviu</b>. Nosné témy — čítané aj konvertujúce vo veľkom objeme.</li>
+    <li><b>Nišové konverzné zlato — vysoká konverzia, menej článkov (vľavo hore):</b> <b>Človek</b> (8,5 konv./čl.), <b>Školstvo</b> (6,6), <b>Sexuálne zneužívanie</b> (5,8), <b>Domáce násilie</b> (5,0), <b>Otcovia v plienkach</b> (3,6). Silné konverzné témy, ktorých píšeme menej — priestor rásť.</li>
+    <li><b>Relatívne slabšie / lojalitné (dole):</b> osobné rubriky (<b>Víkend bez politiky</b>, <b>Pod slnkom Jany Shemesh</b>), kultúra (<b>Knihy</b>, <b>Filmy</b>), <b>Technológie</b> a <b>Umelá inteligencia</b>, <b>Terapia slovom</b>, <b>Gastro a jedlo</b>. Pozor: aj tieto väčšinou konvertujú okolo priemeru webu — latka rubriky je len veľmi vysoká. Viaceré (AI, Knihy, Víkend bez politiky) majú vysoký podiel predplatiteľov = retenčná hodnota.</li>
+  </ul>
+  <div class="twocol">
+    <div><h4>Najlepšie konvertujúce témy</h4><div class="tablewrap"><table><thead><tr><th>Téma (tag)</th><th>Články</th><th>Konv./čl.</th><th>Konv. spolu</th><th>Pageviews/čl.</th><th>% predpl.</th><th>Konv./1000 PV</th></tr></thead><tbody><tr><td class="nm">Človek</td><td>34</td><td>8.47</td><td>288</td><td>26 299</td><td>55.9</td><td>0.21</td></tr><tr><td class="nm">Školstvo</td><td>45</td><td>6.58</td><td>296</td><td>20 395</td><td>53.2</td><td>0.23</td></tr><tr><td class="nm">Sexuálne zneužívanie</td><td>50</td><td>5.78</td><td>289</td><td>23 962</td><td>56.2</td><td>0.20</td></tr><tr><td class="nm">Životy mužov</td><td>255</td><td>5.53</td><td>1 410</td><td>19 949</td><td>56.8</td><td>0.23</td></tr><tr><td class="nm">Domáce násilie</td><td>30</td><td>4.97</td><td>149</td><td>17 009</td><td>57.2</td><td>0.23</td></tr><tr><td class="nm">Heroine</td><td>217</td><td>4.45</td><td>966</td><td>19 181</td><td>55.9</td><td>0.20</td></tr><tr><td class="nm">Cesta k zdraviu</td><td>130</td><td>4.37</td><td>568</td><td>19 298</td><td>52.7</td><td>0.20</td></tr><tr><td class="nm">Rozhovory</td><td>329</td><td>4.35</td><td>1 430</td><td>21 089</td><td>54.3</td><td>0.18</td></tr><tr><td class="nm">Duševné zdravie</td><td>391</td><td>4.32</td><td>1 689</td><td>16 667</td><td>56.3</td><td>0.22</td></tr><tr><td class="nm">Mladí</td><td>155</td><td>4.28</td><td>664</td><td>18 040</td><td>56.0</td><td>0.20</td></tr><tr><td class="nm">Zdravotníctvo</td><td>44</td><td>4.27</td><td>188</td><td>20 484</td><td>48.3</td><td>0.19</td></tr><tr><td class="nm">LGBTI+</td><td>34</td><td>4.12</td><td>140</td><td>20 890</td><td>54.2</td><td>0.16</td></tr><tr><td class="nm">Vzťahy</td><td>400</td><td>4.01</td><td>1 606</td><td>17 346</td><td>55.5</td><td>0.20</td></tr><tr><td class="nm">Životy žien</td><td>431</td><td>3.75</td><td>1 617</td><td>17 137</td><td>55.7</td><td>0.18</td></tr><tr><td class="nm">Otcovia v plienkach</td><td>25</td><td>3.60</td><td>90</td><td>20 905</td><td>57.8</td><td>0.17</td></tr></tbody></table></div></div>
+    <div><h4>Najslabšie konvertujúce témy</h4><div class="tablewrap"><table><thead><tr><th>Téma (tag)</th><th>Články</th><th>Konv./čl.</th><th>Pageviews/čl.</th><th>% predpl.</th><th>Konv./1000 PV</th></tr></thead><tbody><tr><td class="nm">Víkend bez politiky</td><td>41</td><td>0.12</td><td>6 698</td><td>63.5</td><td>0.01</td></tr><tr><td class="nm">Pod slnkom Jany Shemesh</td><td>42</td><td>0.93</td><td>8 538</td><td>59.8</td><td>0.10</td></tr><tr><td class="nm">Vojna na Ukrajine</td><td>28</td><td>1.29</td><td>10 867</td><td>54.4</td><td>0.12</td></tr><tr><td class="nm">Technológie</td><td>26</td><td>1.62</td><td>12 686</td><td>59.4</td><td>0.14</td></tr><tr><td class="nm">Umelá inteligencia</td><td>21</td><td>1.67</td><td>12 538</td><td>62.4</td><td>0.11</td></tr><tr><td class="nm">Gastro a jedlo</td><td>26</td><td>1.73</td><td>19 829</td><td>55.8</td><td>0.09</td></tr><tr><td class="nm">Filmy</td><td>41</td><td>1.80</td><td>18 053</td><td>55.4</td><td>0.10</td></tr><tr><td class="nm">Knihy</td><td>47</td><td>2.06</td><td>14 949</td><td>59.5</td><td>0.12</td></tr><tr><td class="nm">Silné ženy</td><td>37</td><td>2.11</td><td>14 601</td><td>55.3</td><td>0.14</td></tr><tr><td class="nm">Terapia slovom</td><td>42</td><td>2.33</td><td>13 758</td><td>60.2</td><td>0.15</td></tr><tr><td class="nm">V ženskom rode</td><td>24</td><td>2.71</td><td>13 609</td><td>61.1</td><td>0.11</td></tr><tr><td class="nm">O čom ženy nehovoria</td><td>24</td><td>2.83</td><td>20 548</td><td>58.0</td><td>0.14</td></tr></tbody></table></div></div>
+  </div>
+  <div class="takeaway"><b>Čo funguje:</b> ľudské a osobné príbehy (Človek, Životy mužov/žien), duševné zdravie, vzťahy a rodičovstvo, násilie a zneužívanie, školstvo a zdravotné príbehy, rozhovory. Spája ich silná osobná výpoveď alebo použiteľná rada.<br><br><b>Čo je relatívne slabšie:</b> lifestyle a kultúrne rubriky (knihy, filmy, gastro), technológie a AI a niektoré autorské rubriky — no aj tie konvertujú približne na úrovni priemeru webu a časť z nich drží lojálne jadro.</div>
+
+  <h4>Najúspešnejšie články rubriky (podľa konverzií)</h4>
+  <div class="tablewrap"><table><thead><tr><th>Konv.</th><th>Titulok</th><th>Autor(i)</th><th>Pageviews</th></tr></thead><tbody><tr><td>81</td><td class="nm" style="white-space:normal">Chceš skončiť v base, keď máš bábätko? Študenti opisujú vyhrážky a šikanu od profesorky</td><td style="white-space:normal">Karolína Kiripolská</td><td>119 945</td></tr><tr><td>69</td><td class="nm" style="white-space:normal">Martina Kavalír: Keď mi Honzík pre moje vyčerpanie spadol, pochopili sme, že už nemôžeme byť spolu</td><td style="white-space:normal">Karol Sudor</td><td>53 190</td></tr><tr><td>54</td><td class="nm" style="white-space:normal">Zavolal si ma do detskej izby a povedal: Chcem byť chlapec. A rozplakal sa. Príbeh otca, ktorého transrodový syn Gabriel si vzal život</td><td style="white-space:normal">Karol Sudor</td><td>105 132</td></tr><tr><td>41</td><td class="nm" style="white-space:normal">Vysoký cholesterol si nemáte šancu všimnúť, aj preto je nebezpečný. Lekár radí, aké hodnoty sledovať a aké zásady dodržiavať</td><td style="white-space:normal">Zoran Boškovič</td><td>71 927</td></tr><tr><td>41</td><td class="nm" style="white-space:normal">Barbora Majerová ušla zo zlatej klietky žiarlivého násilníka a varuje, že štát obete nechráni</td><td style="white-space:normal">Karol Sudor</td><td>43 374</td></tr><tr><td>39</td><td class="nm" style="white-space:normal">Nešťastní, osamelí a neschopní o tom hovoriť. Prečo muži strácajú priateľov (text získal európsku cenu)</td><td style="white-space:normal">Filip Struhárik</td><td>64 787</td></tr><tr><td>39</td><td class="nm" style="white-space:normal">Hormonálna nerovnováha vytvára na mozog stres. Neurobiologička Dominika Fričová radí, čo vtedy môže pomôcť</td><td style="white-space:normal">Katarína Strýčková</td><td>61 143</td></tr><tr><td>36</td><td class="nm" style="white-space:normal">Rodič by nemal zaťažovať dieťa vlastným strachom. Žiadne dieťa rodičovi nič nedlhuje, hovorí vzťahová terapeutka</td><td style="white-space:normal">Zoran Boškovič</td><td>30 859</td></tr><tr><td>36</td><td class="nm" style="white-space:normal">Ľudia sú v nevere nesmierne vynaliezaví, hovorí súkromný detektív</td><td style="white-space:normal">Beáta Obradovičová</td><td>48 463</td></tr><tr><td>35</td><td class="nm" style="white-space:normal">Vzťahová terapeutka Hradileková o odhalení nevery: Prezeranie partnerovho mobilu je už len dôsledok nedôvery</td><td style="white-space:normal">Beáta Obradovičová</td><td>24 916</td></tr></tbody></table></div>
+  <div class="takeaway"><b>Odporúčanie pre rubriku:</b> je to najlepšie konvertujúca rubrika webu — oplatí sa do nej investovať objem. Konverzné jadro stavať na osobných príbehoch, duševnom zdraví, vzťahoch, rodičovstve a citlivých témach (násilie, zneužívanie) vo formáte rozhovoru alebo príbehu. Kultúrne a lifestyle rubriky a AI ponechať skôr pre lojalitu a rozmanitosť, nie ako hlavný konverzný ťahúň.</div>
+
+  <h2 id="matica">2 · Čo písať viac a čo menej (portfóliová matica)</h2>
+  <p>Matica umiestňuje témy podľa dvoch percentilov: vodorovne hodnota, ktorú téma prináša, zvisle počet publikovaných článkov (objem). Diagonála = rovnováha medzi tým, koľko o téme píšeme a koľko prináša. Akčné sú odchýlky:</p>
+  <ul class="clean">
+    <li><b style="color:#2f7d32">Zelené pole (vpravo dole) — PÍSAŤ VIAC:</b> téma prináša veľa hodnoty, hoci jej píšeme málo.</li>
+    <li><b style="color:#c0392b">Červené pole (vľavo hore) — PREHODNOTIŤ:</b> téme venujeme veľa článkov, ale hodnoty prináša (relatívne) málo.</li>
+    <li><b style="color:#3b6ea5">Modré polia — UDRŽAŤ:</b> objem a hodnota zhruba zodpovedajú.</li>
+  </ul>
+
+  <h3>Pohľad len cez konverzie</h3>
+  <div class="chart"><div id="c_spmx1"></div></div>
+  <div class="cap">Os X = percentil počtu konverzií, os Y = percentil počtu článkov. Pomenovaná je čo najväčšia časť tém bez prekrytia.</div>
+  <h4>Konkrétne odporúčania z matice (konverzie)</h4>
+  <ul class="clean">
+    <li><b style="color:#2f7d32">Písať viac (zelené):</b> Človek, Domáce násilie — vysoký počet konverzií pri malom počte článkov.</li>
+    <li><b style="color:#c0392b">Prehodnotiť objem (červené):</b> Knihy, Pod slnkom Jany Shemesh, Terapia slovom — pri danom objeme prinášajú relatívne najmenej konverzií (v rámci tejto vysoko konvertujúcej rubriky).</li>
+  </ul>
+  <div class="takeaway"><b>Zhrnutie:</b> keďže celá rubrika konvertuje výnimočne, matica ukazuje najmä relatívne odchýlky. „Písať viac" vychádza pri silných, ale menej pokrytých témach (Človek, Domáce násilie); „prehodnotiť" pri kultúrnych a autorských rubrikách, ktoré v rámci rubriky konvertujú podpriemerne — no stále slúžia lojalite (viac v druhej matici).</div>
+
+  <h3>Širší pohľad: agregovaná hodnota témy (konverzie + dosah)</h3>
+  <p>Predchádzajúca matica brala do úvahy len konverzie. Tento graf pridáva <b>dosah</b> (pageviews na článok — prísun nových čitateľov). Agregovaná hodnota na článok je vážený priemer dvoch zložiek prepočítaných na percentil: <b>konverzie 50 % + dosah 50 %</b>. Samostatnú lojalitnú zložku sme vynechali — absolútna čítanosť predplatiteľmi takmer splývala s dosahom, takže nepridávala vlastný signál. Os X = percentil tejto hodnoty, os Y = počet článkov.</p>
+  <p class="muted">Na rozdiel od prvej matice (celkový počet konverzií) tu meriame hodnotu <b>na článok</b> — preto sa zviditeľnia témy, ktoré píšeme málo, ale každý ich kus zaberie.</p>
+  <div class="chart"><div id="c_spmx2"></div></div>
+  <div class="cap">Zelené = vysoká hodnota pri malom objeme (písať viac), červené = veľký objem pri nízkej hodnote (prehodnotiť).</div>
+  <h4>Čo písať viac podľa agregovanej hodnoty</h4>
+  <ul class="clean">
+    <li><b style="color:#2f7d32">Zelené pole:</b> Človek, Domáce násilie + LGBTI+, Otcovia v plienkach, O čom ženy nehovoria.</li>
+    <li><b style="color:#c0392b">Červené pole:</b> Knihy, Pod slnkom Jany Shemesh, Terapia slovom + Psychologická poradňa, Rodičovstvo.</li>
+  </ul>
+  <h4>Čo pribudlo oproti grafu konverzií</h4>
+  <p>Do odporúčaných „písať viac" sa <b>po novom</b> dostali <b>LGBTI+</b>, <b>Otcovia v plienkach</b> a <b>O čom ženy nehovoria</b>. Spája ich, že popri slušnej konverzii prinášajú aj <b>vysoký dosah</b> (~20–21-tisíc PV na článok) a silnú čítanosť predplatiteľmi — hodnotu, ktorú samotná konverzia nevyzdvihla. Píšeme ich pritom málo, takže majú priestor rásť.</p>
+  <div class="takeaway"><b>Ako to čítať a čo robiť:</b> pri rubrike, ktorá konvertuje aj drží predplatiteľov, sa oplatí pridať obsah o LGBTI+, otcovstve/rodičovstve mužov a citlivých ženských témach — každý takýto článok zaberie nadpriemerne. <b>Dôležitá nuansa:</b> <b>Rodičovstvo</b> (285 článkov) a <b>Psychologická poradňa</b> (139) padli po pridaní dosahu a lojality do červenej — nie preto, že by konvertovali zle (konvertujú nad priemerom webu), ale preto, že ich píšeme veľmi veľa a hodnota na článok je v rámci tejto rubriky podpriemerná. Netreba ich rušiť, skôr ďalej nezvyšovať objem. Kultúrne rubriky a AI zostávajú v červenej, no držia lojálne jadro — ich hodnota je retenčná.</div>
+
+  <h2 id="metodika">Metodika a rozhodnutia</h2>
+  <p class="muted">
+  Zdroj: bežné články v rubrike Rodina a vzťahy (júl 2025 – jún 2026), po odstránení riadkov s menej než 100 pageviews. Autori: 10 pravidelných redaktorov vybraných po konzultácii (hranica ≥20 článkov v rubrike); vylúčené inštitucionálne podpisy, syndikované zdroje, kreslení autori, Kristína Böhmer (prevažne Svet) a malí autori pod prahom. Pri spoluautorstve sa článok počíta každému z autorov.
+  Extrémne virálne články zostávajú v dátach, popri priemere uvádzame aj medián (odolný voči nim). Pojmy: „konverzie" = počet konverzií; „% predpl." = podiel pageviews od predplatiteľov (lojalita); „dosah" = pageviews; „efektivita" = konverzie na 1000 pageviews; „agregovaná hodnota na článok" = vážený priemer percentilov konverzií (50 %) a dosahu (50 %); samostatná lojalitná zložka bola vypustená, lebo absolútna čítanosť predplatiteľmi takmer splýva s dosahom.
+  </p>
+  <footer>Analýza pripravená pre Denník N · rubrika Rodina a vzťahy · dáta júl 2025 – jún 2026 · grafy sú interaktívne (kurzor zobrazí detail).</footer>
+</div>
+<script>
+const D = {"sp_authors": [{"name": "Beáta Obradovičová", "lbl": "Beáta Obradovičová", "n": 118, "conv_total": 654.0, "conv_avg": 5.5423728813559325, "conv_med": 3.0, "pv_avg": 21543.79661016949, "pv_total": 2542168.0, "sub_ratio": 51.467338983050844, "eff": 0.2440021266062316, "depth": 2.768203327055431}, {"name": "Iveta Tanoczká", "lbl": "Iveta Tanoczká", "n": 116, "conv_total": 277.0, "conv_avg": 2.3879310344827585, "conv_med": 1.5, "pv_avg": 13484.344827586207, "pv_total": 1564184.0, "sub_ratio": 55.37361896551724, "eff": 0.17405249518824772, "depth": 2.403467715575046}, {"name": "Dominika Chrastová", "lbl": "Dominika Chrastová", "n": 75, "conv_total": 256.0, "conv_avg": 3.4133333333333336, "conv_med": 2.0, "pv_avg": 14024.666666666666, "pv_total": 1051850.0, "sub_ratio": 57.22060533333332, "eff": 0.2542698441211485, "depth": 2.2707677526948253}, {"name": "Jana Shemesh", "lbl": "Jana Shemesh", "n": 46, "conv_total": 39.0, "conv_avg": 0.8478260869565217, "conv_med": 0.0, "pv_avg": 8595.91304347826, "pv_total": 395412.0, "sub_ratio": 59.8870347826087, "eff": 0.09066973748389377, "depth": 2.4295684534838875}, {"name": "Ria Gehrerová", "lbl": "Ria Gehrerová", "n": 46, "conv_total": 29.0, "conv_avg": 0.6304347826086957, "conv_med": 0.0, "pv_avg": 8746.45652173913, "pv_total": 402337.0, "sub_ratio": 61.613463043478255, "eff": 0.034217676288568935, "depth": 1.8710862245841942}, {"name": "Rastislav Kačmár", "lbl": "Rastislav Kačmár", "n": 25, "conv_total": 95.0, "conv_avg": 3.8, "conv_med": 2.0, "pv_avg": 21198.72, "pv_total": 529968.0, "sub_ratio": 57.57610000000002, "eff": 0.17470564545923342, "depth": 3.1655244376988163}, {"name": "Katarína Strýčková", "lbl": "Katarína Strýčková", "n": 24, "conv_total": 65.0, "conv_avg": 2.7083333333333335, "conv_med": 0.0, "pv_avg": 13609.0, "pv_total": 326616.0, "sub_ratio": 61.09515, "eff": 0.11325754588930616, "depth": 2.688460510333762}, {"name": "Michal Červený", "lbl": "Michal Červený", "n": 42, "conv_total": 188.0, "conv_avg": 4.476190476190476, "conv_med": 3.0, "pv_avg": 23261.64285714286, "pv_total": 976989.0, "sub_ratio": 57.264138095238096, "eff": 0.17816880267232987, "depth": 3.4166509697118865}, {"name": "Zoran Boškovič", "lbl": "Zoran Boškovič", "n": 35, "conv_total": 294.0, "conv_avg": 8.4, "conv_med": 5.0, "pv_avg": 27692.97142857143, "pv_total": 969254.0, "sub_ratio": 51.070491428571415, "eff": 0.28000148312103534, "depth": 4.247059076460616}], "sp_tags": [{"name": "Duševné zdravie", "n": 391, "conv_total": 1689.0, "conv_avg": 4.319693094629156, "conv_med": 2.0, "pv_avg": 16667.048593350384, "pv_total": 6516816.0, "sub_ratio": 56.28484578005115, "eff": 0.21563643337548422, "depth": 2.703986589271106, "lbl": "Duševné zdravie"}, {"name": "Životy žien", "n": 431, "conv_total": 1617.0, "conv_avg": 3.7517401392111367, "conv_med": 2.0, "pv_avg": 17137.034802784223, "pv_total": 7386062.0, "sub_ratio": 55.7276988399072, "eff": 0.17752667956461046, "depth": 2.7733571157329435, "lbl": "Životy žien"}, {"name": "Vzťahy", "n": 400, "conv_total": 1606.0, "conv_avg": 4.015, "conv_med": 2.0, "pv_avg": 17345.535, "pv_total": 6938214.0, "sub_ratio": 55.54708975, "eff": 0.20326765381522904, "depth": 2.6957926732278845, "lbl": "Vzťahy"}, {"name": "Rozhovory", "n": 329, "conv_total": 1430.0, "conv_avg": 4.3465045592705165, "conv_med": 2.0, "pv_avg": 21089.38905775076, "pv_total": 6938409.0, "sub_ratio": 54.30514224924011, "eff": 0.18015135119715298, "depth": 3.28029987111325, "lbl": "Rozhovory"}, {"name": "Životy mužov", "n": 255, "conv_total": 1410.0, "conv_avg": 5.529411764705882, "conv_med": 3.0, "pv_avg": 19948.996078431373, "pv_total": 5086994.0, "sub_ratio": 56.78311411764706, "eff": 0.22979951624221248, "depth": 3.095236086213593, "lbl": "Životy mužov"}, {"name": "Heroine", "n": 217, "conv_total": 966.0, "conv_avg": 4.451612903225806, "conv_med": 2.0, "pv_avg": 19181.382488479263, "pv_total": 4162360.0, "sub_ratio": 55.88823179723503, "eff": 0.19874639211190145, "depth": 3.126417074016013, "lbl": "Heroine"}, {"name": "Rodičovstvo", "n": 285, "conv_total": 950.0, "conv_avg": 3.3333333333333335, "conv_med": 2.0, "pv_avg": 16022.589473684211, "pv_total": 4566438.0, "sub_ratio": 54.991532280701755, "eff": 0.19284592188431524, "depth": 2.7064544432521815, "lbl": "Rodičovstvo"}, {"name": "Mladí", "n": 155, "conv_total": 664.0, "conv_avg": 4.283870967741936, "conv_med": 2.0, "pv_avg": 18039.825806451612, "pv_total": 2796173.0, "sub_ratio": 55.9960935483871, "eff": 0.2046286875662068, "depth": 2.7428105914576713, "lbl": "Mladí"}, {"name": "Cesta k zdraviu", "n": 130, "conv_total": 568.0, "conv_avg": 4.369230769230769, "conv_med": 2.0, "pv_avg": 19298.061538461538, "pv_total": 2508748.0, "sub_ratio": 52.70244307692308, "eff": 0.19863968564902318, "depth": 2.7997816091427232, "lbl": "Cesta k zdraviu"}, {"name": "Psychologická poradňa", "n": 139, "conv_total": 449.0, "conv_avg": 3.2302158273381294, "conv_med": 2.0, "pv_avg": 14080.510791366907, "pv_total": 1957191.0, "sub_ratio": 54.20798489208634, "eff": 0.22629460635133622, "depth": 1.9921655838994083, "lbl": "Psychologická poradňa"}, {"name": "Školstvo", "n": 45, "conv_total": 296.0, "conv_avg": 6.5777777777777775, "conv_med": 2.0, "pv_avg": 20395.4, "pv_total": 917793.0, "sub_ratio": 53.19906222222222, "eff": 0.23159867849555368, "depth": 3.009375006016838, "lbl": "Školstvo"}, {"name": "Sexuálne zneužívanie", "n": 50, "conv_total": 289.0, "conv_avg": 5.78, "conv_med": 3.0, "pv_avg": 23961.68, "pv_total": 1198084.0, "sub_ratio": 56.23198800000001, "eff": 0.19917924242030652, "depth": 3.4093702168966677, "lbl": "Sexuálne zneužívanie"}, {"name": "Človek", "n": 34, "conv_total": 288.0, "conv_avg": 8.470588235294118, "conv_med": 3.0, "pv_avg": 26299.029411764706, "pv_total": 894167.0, "sub_ratio": 55.92106764705881, "eff": 0.21497757848054866, "depth": 3.5495253982085178, "lbl": "Človek"}, {"name": "Zdravotníctvo", "n": 44, "conv_total": 188.0, "conv_avg": 4.2727272727272725, "conv_med": 2.0, "pv_avg": 20484.045454545456, "pv_total": 901298.0, "sub_ratio": 48.25275909090908, "eff": 0.18684653848912, "depth": 3.2627350006829303, "lbl": "Zdravotníctvo"}, {"name": "Domáce násilie", "n": 30, "conv_total": 149.0, "conv_avg": 4.966666666666667, "conv_med": 3.5, "pv_avg": 17009.133333333335, "pv_total": 510274.0, "sub_ratio": 57.239286666666665, "eff": 0.22689809571365566, "depth": 3.164513555619477, "lbl": "Domáce násilie"}, {"name": "LGBTI+", "n": 34, "conv_total": 140.0, "conv_avg": 4.117647058823529, "conv_med": 1.5, "pv_avg": 20889.5, "pv_total": 710243.0, "sub_ratio": 54.23444705882353, "eff": 0.16485580059153213, "depth": 2.7402254585038532, "lbl": "LGBTI+"}, {"name": "Terapia slovom", "n": 42, "conv_total": 98.0, "conv_avg": 2.3333333333333335, "conv_med": 1.0, "pv_avg": 13757.857142857143, "pv_total": 577830.0, "sub_ratio": 60.164921428571425, "eff": 0.1531584614001125, "depth": 2.561042808816135, "lbl": "Terapia slovom"}, {"name": "Knihy", "n": 47, "conv_total": 97.0, "conv_avg": 2.0638297872340425, "conv_med": 1.0, "pv_avg": 14949.148936170213, "pv_total": 702610.0, "sub_ratio": 59.46984680851065, "eff": 0.11964542410596578, "depth": 3.168234721467487, "lbl": "Knihy"}, {"name": "Otcovia v plienkach", "n": 25, "conv_total": 90.0, "conv_avg": 3.6, "conv_med": 2.0, "pv_avg": 20905.2, "pv_total": 522630.0, "sub_ratio": 57.79409600000001, "eff": 0.16669760175655793, "depth": 3.142860406998177, "lbl": "Otcovia v plienkach"}, {"name": "Silné ženy", "n": 37, "conv_total": 78.0, "conv_avg": 2.108108108108108, "conv_med": 2.0, "pv_avg": 14600.756756756757, "pv_total": 540228.0, "sub_ratio": 55.26922972972973, "eff": 0.1391057661446142, "depth": 2.7100744421869107, "lbl": ""}, {"name": "Filmy", "n": 41, "conv_total": 74.0, "conv_avg": 1.8048780487804879, "conv_med": 1.0, "pv_avg": 18052.878048780487, "pv_total": 740168.0, "sub_ratio": 55.43794146341463, "eff": 0.0989500364932378, "depth": 2.6399329109840113, "lbl": ""}, {"name": "Život s hendikepom", "n": 21, "conv_total": 69.0, "conv_avg": 3.2857142857142856, "conv_med": 1.0, "pv_avg": 16241.52380952381, "pv_total": 341072.0, "sub_ratio": 48.20739999999999, "eff": 0.20673650454816647, "depth": 2.634390319238044, "lbl": ""}, {"name": "O čom ženy nehovoria", "n": 24, "conv_total": 68.0, "conv_avg": 2.8333333333333335, "conv_med": 2.0, "pv_avg": 20548.416666666668, "pv_total": 493162.0, "sub_ratio": 57.97592916666667, "eff": 0.13585019039219626, "depth": 2.8405369349410883, "lbl": ""}, {"name": "V ženskom rode", "n": 24, "conv_total": 65.0, "conv_avg": 2.7083333333333335, "conv_med": 0.0, "pv_avg": 13609.0, "pv_total": 326616.0, "sub_ratio": 61.09515, "eff": 0.11325754588930616, "depth": 2.688460510333762, "lbl": "V ženskom rode"}, {"name": "Gastro a jedlo", "n": 26, "conv_total": 45.0, "conv_avg": 1.7307692307692308, "conv_med": 1.0, "pv_avg": 19828.53846153846, "pv_total": 515542.0, "sub_ratio": 55.79395, "eff": 0.09352165111315952, "depth": 3.15904659862035, "lbl": ""}, {"name": "Technológie", "n": 26, "conv_total": 42.0, "conv_avg": 1.6153846153846154, "conv_med": 1.0, "pv_avg": 12686.346153846154, "pv_total": 329845.0, "sub_ratio": 59.40306538461539, "eff": 0.13930262360016216, "depth": 2.9934115044576393, "lbl": ""}, {"name": "Pod slnkom Jany Shemesh", "n": 42, "conv_total": 39.0, "conv_avg": 0.9285714285714286, "conv_med": 0.0, "pv_avg": 8538.142857142857, "pv_total": 358602.0, "sub_ratio": 59.81618095238095, "eff": 0.09930495057759794, "depth": 2.418528457117692, "lbl": "Pod slnkom Jany Shemesh"}, {"name": "Vojna na Ukrajine", "n": 28, "conv_total": 36.0, "conv_avg": 1.2857142857142858, "conv_med": 1.0, "pv_avg": 10867.214285714286, "pv_total": 304282.0, "sub_ratio": 54.35297857142858, "eff": 0.11980273918973026, "depth": 2.230458624076649, "lbl": ""}, {"name": "Umelá inteligencia", "n": 21, "conv_total": 35.0, "conv_avg": 1.6666666666666667, "conv_med": 1.0, "pv_avg": 12538.047619047618, "pv_total": 263299.0, "sub_ratio": 62.41424285714286, "eff": 0.1068176692686513, "depth": 2.792312462456467, "lbl": "Umelá inteligencia"}, {"name": "Víkend bez politiky", "n": 41, "conv_total": 5.0, "conv_avg": 0.12195121951219512, "conv_med": 0.0, "pv_avg": 6698.292682926829, "pv_total": 274630.0, "sub_ratio": 63.546475609756094, "eff": 0.014395507056176867, "depth": 1.6834692831005422, "lbl": "Víkend bez politiky"}]};
+function med(a){a=a.slice().filter(v=>v!=null).sort((x,y)=>x-y);const n=a.length;if(!n)return 0;return n%2?a[(n-1)/2]:(a[n/2-1]+a[n/2])/2;}
+function scatter(div, rows, xk, yk, sk, ck, xt, yt, quad){
+  const xs=rows.map(r=>r[xk]), ys=rows.map(r=>r[yk]);
+  const mx=med(xs), my=med(ys);
+  const sizes=rows.map(r=>r[sk]||1); const smax=Math.max.apply(null,sizes);
+  const trace={x:xs,y:ys,text:rows.map(r=>r.lbl||''),customdata:rows.map(r=>r.name),
+    hovertemplate:'<b>%{customdata}</b><br>'+xt+': %{x:,.1f}<br>'+yt+': %{y:,.1f}<extra></extra>',
+    mode:'markers+text',textposition:'top center',textfont:{size:10,color:'#222'},
+    marker:{size:sizes.map(s=>9+30*Math.sqrt(s/smax)),color:rows.map(r=>r[ck]),colorscale:'RdYlBu',reversescale:true,
+      showscale:true,colorbar:{title:{text:'% predpl.',side:'right'},thickness:12,len:0.55,x:1.02},
+      line:{width:1,color:'#fff'},opacity:0.86}};
+  const shapes=[{type:'line',x0:mx,x1:mx,yref:'paper',y0:0,y1:1,line:{dash:'dot',color:'#ccc',width:1}},
+    {type:'line',y0:my,y1:my,xref:'paper',x0:0,x1:1,line:{dash:'dot',color:'#ccc',width:1}}];
+  const ann=(quad||[]).map(q=>({x:q.x,y:q.y,xref:'paper',yref:'paper',xanchor:q.xa||'center',text:q.t,showarrow:false,font:{size:11,color:'#b0b0b0'}}));
+  Plotly.newPlot(div,[trace],{margin:{t:12,r:70,b:52,l:64},height:520,
+    xaxis:{title:{text:xt},zeroline:false,gridcolor:'#eee'},yaxis:{title:{text:yt},zeroline:false,gridcolor:'#eee'},
+    shapes:shapes,annotations:ann,paper_bgcolor:'#fff',plot_bgcolor:'#fff'},{displayModeBar:false,responsive:true});
+}
+const Q_DC=[{x:0.97,y:0.97,t:'čítané + konvertujúce',xa:'right'},{x:0.03,y:0.97,t:'nišové konverzné',xa:'left'},{x:0.03,y:0.03,t:'slabé',xa:'left'},{x:0.97,y:0.03,t:'dosah bez konverzie',xa:'right'}];
+const Q_SPORT_AUTH=[{x:0.97,y:0.97,t:'HVIEZDY — dosah aj konverzia',xa:'right'},{x:0.03,y:0.97,t:'EFEKTÍVNI KONVERTORI — vysoká konverzia, nižší dosah',xa:'left'},{x:0.03,y:0.03,t:'SLABÍ / nišová lojalita',xa:'left'},{x:0.97,y:0.03,t:'DOSAHOVÉ MOTORY — veľký dosah, slabá konverzia',xa:'right'}];
+function pctRank(vals){const s=vals.slice().sort((a,b)=>a-b);const N=vals.length;return vals.map(v=>{let c=0;for(const x of s){if(x<=v)c++;}return c/N*100;});}
+function aggValuePerArticle(rows){
+  const c=pctRank(rows.map(r=>r.conv_avg)), p=pctRank(rows.map(r=>r.pv_avg));
+  return rows.map((r,i)=>0.5*c[i]+0.5*p[i]);
+}
+function quadcore(div, rows, X, Y, xtitle, dense, convword){
+  let labels;
+  if(dense){
+    const order=rows.map((r,i)=>i);
+    const isq=i=>((X[i]>50&&Y[i]<50)||(X[i]<50&&Y[i]>50))?0:1;
+    order.sort((a,b)=>isq(a)-isq(b)||(X[b]-X[a]));
+    const placed=[];const show=new Array(rows.length).fill(false);
+    for(const i of order){var ok=true;for(const j of placed){if(Math.abs(Y[i]-Y[j])<2.4&&Math.abs(X[i]-X[j])<13){ok=false;break;}}if(ok){show[i]=true;placed.push(i);}}
+    labels=rows.map((r,i)=>show[i]?r.name:'');
+  } else { labels=rows.map((r,i)=> ((X[i]>50&&Y[i]<50)||(X[i]<50&&Y[i]>50)) ? r.name : ''); }
+  const colors=rows.map((r,i)=> (X[i]>50&&Y[i]<50)?'#2f7d32' : (X[i]<50&&Y[i]>50)?'#c0392b' : '#5a7a9a');
+  const trace={x:X,y:Y,text:labels,customdata:rows.map(r=>[r.name,r.n]),
+    hovertemplate:'<b>%{customdata[0]}</b><br>'+convword+': %{x:.0f}. percentil<br>článkov: %{customdata[1]}<extra></extra>',
+    mode:'markers+text',textposition:rows.map((r,i)=>X[i]>78?'middle left':'middle right'),textfont:{size:8,color:'#333'},
+    marker:{size:9,color:colors,line:{width:1,color:'#fff'},opacity:0.9}};
+  const rect=(x0,x1,y0,y1,col)=>({type:'rect',x0:x0,x1:x1,y0:y0,y1:y1,fillcolor:col,line:{width:0},layer:'below',opacity:0.16});
+  const shapes=[rect(0,50,50,100,'#c0392b'),rect(50,100,50,100,'#3b6ea5'),rect(0,50,0,50,'#3b6ea5'),rect(50,100,0,50,'#2f7d32'),
+    {type:'line',x0:50,x1:50,y0:0,y1:100,line:{dash:'dot',color:'#888',width:1}},
+    {type:'line',x0:0,x1:100,y0:50,y1:50,line:{dash:'dot',color:'#888',width:1}}];
+  const ann=[{x:25,y:98,text:'PREHODNOTIŤ — veľa článkov, nízka hodnota',showarrow:false,font:{size:11,color:'#c0392b'}},
+    {x:75,y:98,text:'UDRŽAŤ',showarrow:false,font:{size:11,color:'#3b6ea5'}},
+    {x:25,y:2,text:'UDRŽAŤ',showarrow:false,font:{size:11,color:'#3b6ea5'}},
+    {x:75,y:2,text:'PÍSAŤ VIAC — vysoká hodnota, málo článkov',showarrow:false,font:{size:11,color:'#2f7d32'}}];
+  Plotly.newPlot(div,[trace],{margin:{t:14,r:20,b:52,l:58},height:720,
+    xaxis:{title:{text:xtitle},range:[-2,108],zeroline:false,gridcolor:'#f0f0f0'},
+    yaxis:{title:{text:'Percentil — počet publikovaných článkov'},range:[-2,108],zeroline:false,gridcolor:'#f0f0f0'},
+    shapes:shapes,annotations:ann,paper_bgcolor:'#fff',plot_bgcolor:'#fff'},{displayModeBar:false,responsive:true});
+}
+const Q_TOT=[{x:0.97,y:0.97,t:'najväčší celkový prínos',xa:'right'},{x:0.03,y:0.97,t:'veľa konverzií pri menšom dosahu',xa:'left'},{x:0.03,y:0.03,t:'menší celkový prínos',xa:'left'},{x:0.97,y:0.03,t:'veľký dosah, menej konverzií',xa:'right'}];
+scatter('c_authtot',D.sp_authors,'pv_total','conv_total','n','sub_ratio','Pageviews spolu (celkový dosah)','Konverzie spolu',Q_TOT);
+scatter('c_sptag',D.sp_tags,'pv_avg','conv_avg','n','sub_ratio','Pageviews na článok (dosah)','Konverzie na článok',Q_DC);
+quadcore('c_spmx1',D.sp_tags,pctRank(D.sp_tags.map(r=>r.conv_total)),pctRank(D.sp_tags.map(r=>r.n)),'Percentil — počet konverzií (predané predplatné)',true,'konverzie');
+quadcore('c_spmx2',D.sp_tags,pctRank(aggValuePerArticle(D.sp_tags)),pctRank(D.sp_tags.map(r=>r.n)),'Percentil — agregovaná hodnota na článok (konverzie 50 % + dosah 50 %)',true,'agreg. hodnota');
+</script>
+</body></html>

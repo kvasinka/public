@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Denník N — rubrika Kultúra (júl 2025 – jún 2026)</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<style>
+  :root{--red:#e8112d;--ink:#16181d;--muted:#666;--line:#e7e7ea;--bg:#fafafa;--card:#fff;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px 80px;}
+  header{background:var(--ink);color:#fff;padding:46px 0 40px;margin-bottom:8px;}
+  header .wrap{padding-top:0;padding-bottom:0;}
+  .kicker{color:var(--red);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:12px;}
+  h1{font-size:34px;line-height:1.18;margin:8px 0 10px;}
+  header p{color:#c9ccd3;margin:0;max-width:720px;}
+  h2{font-size:25px;margin:54px 0 6px;padding-top:18px;border-top:3px solid var(--ink);}
+  h3{font-size:18px;margin:34px 0 6px;color:var(--ink);}
+  h4{font-size:15px;margin:24px 0 4px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;}
+  p{margin:10px 0;}
+  .muted{color:var(--muted);font-size:14px;}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0;}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;}
+  .stat .v{font-size:26px;font-weight:700;color:var(--red);}
+  .stat .l{font-size:12.5px;color:var(--muted);}
+  .chart{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 14px 6px;margin:16px 0;}
+  .cap{font-size:13px;color:var(--muted);margin:2px 4px 12px;}
+  .takeaway{background:#fff;border-left:4px solid var(--red);padding:12px 16px;margin:16px 0;border-radius:0 8px 8px 0;box-shadow:0 1px 2px rgba(0,0,0,.04);}
+  .takeaway b{color:var(--ink);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;background:var(--card);}
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;margin:10px 0;}
+  th,td{padding:8px 11px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--line);}
+  th{background:#f3f3f5;font-weight:600;position:sticky;top:0;font-size:12px;color:#444;text-align:right;}
+  th:first-child,td.nm{text-align:left;}
+  td.nm{font-weight:600;}
+  tbody tr:hover{background:#fcf3f4;}
+  .twocol{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  @media(max-width:820px){.twocol{grid-template-columns:1fr;}h1{font-size:27px;}}
+  ul.clean li{margin:6px 0;}
+  footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);margin-top:60px;padding-top:18px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="kicker">Denník N · interná analytika</div>
+    <h1>Rubrika Kultúra:<br>čo funguje a čo nie</h1>
+    <p>Samostatná hĺbková analýza rubriky Kultúra za obdobie júl 2025 – jún 2026: výkonnosť pravidelných redaktorov a tém z pohľadu konverzií, dosahu a lojality, plus portfóliové matice „čoho písať viac a čoho menej".</p>
+  </div>
+</header>
+<div class="wrap">
+
+  <h2 id="vykon">1 · Výkonnosť autorov a tém</h2>
+  <p>Analýza 909 bežných článkov v rubrike Kultúra, 8 pravidelných redaktorov (po konzultácii: Močková, Rehák, Bálik, Garaj, Chrastová, Šlinská, Vitalia Bella a Vítek Svoboda) a 26 tém. Inštitucionálne podpisy (Denník N, Heroine…), syndikované zdroje a kreslení autori sú vylúčení; rovnako autori píšuci prevažne do iných rubrík.</p>
+  <div class="cards">
+    <div class="stat"><div class="v">1.27</div><div class="l">konv./článok <span style="color:#999">(web: 1.84)</span></div></div>
+    <div class="stat"><div class="v">1</div><div class="l">medián konverzií</div></div>
+    <div class="stat"><div class="v">11 846</div><div class="l">priem. pageviews/článok</div></div>
+    <div class="stat"><div class="v">56.3%</div><div class="l">predplatiteľov <span style="color:#999">(web: 50.5%)</span></div></div>
+  </div>
+  <div class="takeaway"><b>Kultúra je lojalitné (retenčné) oddelenie.</b> Na článok konvertuje pod priemerom webu (1.27 vs 1.84), ale má výrazne vyšší podiel predplatiteľov v čítanosti (56.3 % vs 50.5 %) — číta ju hlavne jadro predplatiteľov. Jej hodnota je teda predovšetkým v <b>udržaní predplatiteľov</b>, nie v získavaní nových. Konvertuje najmä <b>politicko-kultúrny konflikt</b> (Šimkovičová, Machala, Ficova vláda) a osobné a vzťahové presahy; klasické recenzie (knihy, filmy, hudba, divadlo) konvertujú málo, no držia lojálne jadro.</div>
+
+  <h4>Celkový výkon autorov (súčty za rok)</h4>
+  <p>Popri priemernej konverzii na článok (tabuľka nižšie) tu meriame <b>celkový prínos</b> — súčet konverzií a súčet pageviews za celé obdobie.</p>
+  <div class="chart"><div id="c_authtot"></div></div>
+  <div class="cap">Os X = pageviews spolu (celkový dosah), os Y = konverzie spolu, veľkosť = počet článkov, farba = % predplatiteľov.</div>
+  <div class="tablewrap"><table><thead><tr><th>Autor</th><th>Články</th><th>Konverzie spolu</th><th>Pageviews spolu</th><th>Konv./čl.</th><th>% predpl.</th><th>Čít. predpl./čl.</th></tr></thead><tbody><tr><td class="nm">Jana Močková</td><td>104</td><td>201</td><td>1 997 286</td><td>1.93</td><td>48</td><td>9 285</td></tr><tr><td class="nm">Oliver Rehák</td><td>102</td><td>169</td><td>1 429 117</td><td>1.66</td><td>54</td><td>7 526</td></tr><tr><td class="nm">Peter Bálik</td><td>96</td><td>126</td><td>1 002 440</td><td>1.31</td><td>55</td><td>5 769</td></tr><tr><td class="nm">Patrik Garaj</td><td>87</td><td>67</td><td>696 178</td><td>0.77</td><td>63</td><td>5 029</td></tr><tr><td class="nm">Dominika Chrastová</td><td>29</td><td>46</td><td>322 870</td><td>1.59</td><td>60</td><td>6 687</td></tr><tr><td class="nm">Vitalia Bella</td><td>12</td><td>33</td><td>215 501</td><td>2.75</td><td>56</td><td>10 008</td></tr><tr><td class="nm">Vítek Svoboda</td><td>11</td><td>13</td><td>150 227</td><td>1.18</td><td>58</td><td>7 932</td></tr><tr><td class="nm">Jana Šlinská</td><td>15</td><td>9</td><td>62 602</td><td>0.60</td><td>67</td><td>2 781</td></tr></tbody></table></div>
+  <div class="takeaway"><b>Ako čítať a čo robiť:</b> v absolútnych číslach rubriku najviac ťahá <b>Jana Močková</b> (201 konverzií a ~2 mil. pageviews), za ňou <b>Oliver Rehák</b> a <b>Peter Bálik</b> — vysoký objem drží celkový výkon rubriky, hoci ich konverzia na článok je nižšia než u menej píšucich mien. Špecialisti s vyššou konverziou na kus (Vitalia Bella, Dominika Chrastová) prispievajú menej v absolútnych číslach, lebo píšu menej. Rozdiel oproti tabuľke „na článok": objemoví autori nesú rubriku, špecialisti vynikajú efektivitou.</div>
+
+  <h4>Autori s najväčším pomerom konverzie NA JEDEN ČLÁNOK (mali by písať viac?)</h4>
+  <div class="tablewrap"><table><thead><tr><th>Autor</th><th>Články</th><th>Konv. spolu</th><th>Konv./čl.</th><th>Medián</th><th>Pageviews/čl.</th><th>% predpl.</th><th>Čít. predpl./čl.</th><th>Konv./1000 PV</th></tr></thead><tbody><tr><td class="nm">Vitalia Bella</td><td>12</td><td>33</td><td>2.75</td><td>1.5</td><td>17 958</td><td>55.7</td><td>10 008</td><td>0.15</td></tr><tr><td class="nm">Jana Močková</td><td>104</td><td>201</td><td>1.93</td><td>1.0</td><td>19 205</td><td>48.3</td><td>9 285</td><td>0.11</td></tr><tr><td class="nm">Oliver Rehák</td><td>102</td><td>169</td><td>1.66</td><td>1.0</td><td>14 011</td><td>53.7</td><td>7 526</td><td>0.13</td></tr><tr><td class="nm">Dominika Chrastová</td><td>29</td><td>46</td><td>1.59</td><td>1.0</td><td>11 133</td><td>60.1</td><td>6 687</td><td>0.22</td></tr><tr><td class="nm">Peter Bálik</td><td>96</td><td>126</td><td>1.31</td><td>0.0</td><td>10 442</td><td>55.2</td><td>5 769</td><td>0.12</td></tr><tr><td class="nm">Vítek Svoboda</td><td>11</td><td>13</td><td>1.18</td><td>1.0</td><td>13 657</td><td>58.1</td><td>7 932</td><td>0.10</td></tr><tr><td class="nm">Patrik Garaj</td><td>87</td><td>67</td><td>0.77</td><td>0.0</td><td>8 002</td><td>62.9</td><td>5 029</td><td>0.09</td></tr><tr><td class="nm">Jana Šlinská</td><td>15</td><td>9</td><td>0.60</td><td>0.0</td><td>4 173</td><td>66.6</td><td>2 781</td><td>0.15</td></tr></tbody></table></div>
+  <div class="takeaway"><b>Odporúčanie:</b> Kultúra nie je akvizičné oddelenie — väčšinu autorov treba hodnotiť najmä retenčne (udržanie predplatiteľov). Konverzný priestor má Jana Močková a osobnejšie témy (Chrastová, Bella). Pri autoroch s mediánom 0 (Bálik, Garaj, Šlinská) brať priemer opatrne.</div>
+
+  <h3>Témy rubriky: čo funguje a čo nie</h3>
+  <div class="chart"><div id="c_sptag"></div></div>
+  <div class="cap">Témy v rubrike Kultúra (aspoň 20 článkov). Vľavo hore = nišové konverzné zlato, vpravo hore = veľký dosah aj konverzie.</div>
+  <h4>Ako čítať tento graf a čo robiť</h4>
+  <ul class="clean">
+    <li><b>Hviezdy — dosah aj konverzia (vpravo hore):</b> <b>Lukáš Machala</b> a <b>Martina Šimkovičová</b> (politicko-kultúrny konflikt okolo verejných inštitúcií, veľký dosah), <b>Rozhovory</b> (202 článkov), <b>Ficova vláda</b>. Čítané aj konvertujúce.</li>
+    <li><b>Nišové konverzné zlato — vysoká konverzia, nižší dosah (vľavo hore):</b> <b>Heroine</b>, <b>Vzťahy</b>, <b>Duševné zdravie</b>, <b>Životy mužov/žien</b>, <b>Mladí</b> — osobné a vzťahové presahy do kultúry. <i>Čo robiť:</i> tieto témy majú konverzný potenciál, oplatí sa im pridať.</li>
+    <li><b>Nízka konverzia, vysoká lojalita (jadro rubriky):</b> recenzie a servisné rubriky — <b>Knihy</b>, <b>Filmy</b>, <b>Hudba</b>, <b>Divadlo</b>, <b>Vizuálne umenie</b>, <b>Album týždňa</b>, <b>Tipy na filmy a seriály</b>, <b>High 5ive</b>, <b>Dnes píše</b>. Konvertujú málo, ale majú vysoký podiel predplatiteľov — sú to <b>retenčné</b> témy, ktoré držia jadro.</li>
+  </ul>
+  <div class="twocol">
+    <div><h4>Najlepšie konvertujúce témy</h4><div class="tablewrap"><table><thead><tr><th>Téma (tag)</th><th>Články</th><th>Konv./čl.</th><th>Pageviews/čl.</th><th>% predpl.</th><th>Čít. predpl./čl.</th></tr></thead><tbody><tr><td class="nm">Lukáš Machala</td><td>25</td><td>2.76</td><td>25 672</td><td>43.0</td><td>11 042</td></tr><tr><td class="nm">Životy mužov</td><td>44</td><td>2.43</td><td>17 693</td><td>55.4</td><td>9 810</td></tr><tr><td class="nm">Heroine</td><td>37</td><td>2.11</td><td>14 780</td><td>54.1</td><td>8 002</td></tr><tr><td class="nm">Vzťahy</td><td>70</td><td>2.06</td><td>16 236</td><td>56.7</td><td>9 210</td></tr><tr><td class="nm">Rozhovory</td><td>202</td><td>2.04</td><td>16 481</td><td>52.7</td><td>8 687</td></tr><tr><td class="nm">Duševné zdravie</td><td>60</td><td>2.02</td><td>14 081</td><td>55.9</td><td>7 866</td></tr><tr><td class="nm">Martina Šimkovičová</td><td>105</td><td>1.98</td><td>19 390</td><td>47.2</td><td>9 149</td></tr><tr><td class="nm">Ficova vláda</td><td>23</td><td>1.83</td><td>18 080</td><td>44.1</td><td>7 982</td></tr><tr><td class="nm">Životy žien</td><td>76</td><td>1.72</td><td>15 057</td><td>55.5</td><td>8 360</td></tr><tr><td class="nm">Rodičovstvo</td><td>30</td><td>1.70</td><td>18 640</td><td>52.3</td><td>9 743</td></tr><tr><td class="nm">Mladí</td><td>37</td><td>1.62</td><td>11 254</td><td>56.4</td><td>6 344</td></tr><tr><td class="nm">LGBTI+</td><td>21</td><td>1.43</td><td>13 958</td><td>56.6</td><td>7 903</td></tr><tr><td class="nm">Seriály</td><td>67</td><td>1.42</td><td>12 072</td><td>61.4</td><td>7 412</td></tr><tr><td class="nm">Divadlo</td><td>52</td><td>1.40</td><td>12 261</td><td>54.3</td><td>6 658</td></tr><tr><td class="nm">Hudba</td><td>204</td><td>1.35</td><td>10 812</td><td>55.8</td><td>6 036</td></tr></tbody></table></div></div>
+    <div><h4>Najslabšie konvertujúce témy</h4><div class="tablewrap"><table><thead><tr><th>Téma (tag)</th><th>Články</th><th>Konv./čl.</th><th>Pageviews/čl.</th><th>% predpl.</th><th>Čít. predpl./čl.</th></tr></thead><tbody><tr><td class="nm">High 5ive</td><td>33</td><td>0.12</td><td>5 424</td><td>66.7</td><td>3 617</td></tr><tr><td class="nm">Dnes píše</td><td>34</td><td>0.41</td><td>4 696</td><td>62.7</td><td>2 944</td></tr><tr><td class="nm">Album týždňa</td><td>45</td><td>0.47</td><td>3 980</td><td>63.6</td><td>2 531</td></tr><tr><td class="nm">Vizuálne umenie</td><td>89</td><td>0.98</td><td>8 193</td><td>54.5</td><td>4 462</td></tr><tr><td class="nm">História</td><td>36</td><td>1.03</td><td>15 402</td><td>53.2</td><td>8 190</td></tr><tr><td class="nm">Tipy na filmy a seriály</td><td>50</td><td>1.08</td><td>9 376</td><td>65.4</td><td>6 135</td></tr><tr><td class="nm">Knihy</td><td>156</td><td>1.12</td><td>9 985</td><td>61.0</td><td>6 086</td></tr><tr><td class="nm">Festival Pohoda</td><td>23</td><td>1.17</td><td>11 280</td><td>55.2</td><td>6 223</td></tr><tr><td class="nm">Vojna na Ukrajine</td><td>30</td><td>1.20</td><td>17 781</td><td>51.3</td><td>9 114</td></tr><tr><td class="nm">Filmy</td><td>207</td><td>1.27</td><td>12 271</td><td>57.3</td><td>7 031</td></tr><tr><td class="nm">Silné ženy</td><td>33</td><td>1.33</td><td>11 349</td><td>53.7</td><td>6 090</td></tr><tr><td class="nm">Hudba</td><td>204</td><td>1.35</td><td>10 812</td><td>55.8</td><td>6 036</td></tr></tbody></table></div></div>
+  </div>
+  <div class="takeaway"><b>Čo konvertuje:</b> politicko-kultúrny konflikt (Machala, Šimkovičová, Ficova vláda), rozhovory a osobné/vzťahové presahy (Heroine, Vzťahy, Duševné zdravie, Životy mužov/žien).<br><br><b>Čo nekonvertuje, ale drží lojalitu:</b> klasické recenzie a servis (knihy, filmy, hudba, divadlo, vizuálne umenie, „Album týždňa", „Tipy na filmy a seriály").</div>
+
+  <h4>Najúspešnejšie články rubriky (podľa konverzií)</h4>
+  <div class="tablewrap"><table><thead><tr><th>Konv.</th><th>Titulok</th><th>Autor(i)</th><th>Pageviews</th></tr></thead><tbody><tr><td>31</td><td class="nm" style="white-space:normal">Organizátor festivalu Rock pod Kameňom: Bojujeme do poslednej chvíle</td><td style="white-space:normal">Peter Bálik</td><td>15 724</td></tr><tr><td>19</td><td class="nm" style="white-space:normal">Nechcem niekde skapať na hadičkách, budem žiť naplno, kým to pôjde, hovorí Ľubo Šoška z klubu Pink Whale</td><td style="white-space:normal">Patrik Garaj, Peter Bálik</td><td>174 189</td></tr><tr><td>18</td><td class="nm" style="white-space:normal">Od eufórie k fraške. Ako vyzeral prvý deň festivalu Rock pod Kameňom, ktorý zachránila Ficova vláda</td><td style="white-space:normal">Dávid Gabera</td><td>46 900</td></tr><tr><td>12</td><td class="nm" style="white-space:normal">Soňa Borušovičová: Eva bola úplne jedinečná a zároveň moja najťažšia klientka</td><td style="white-space:normal">Vitalia Bella</td><td>36 232</td></tr><tr><td>12</td><td class="nm" style="white-space:normal">Machala robí ďalšie likvidačné škrty. Kultúrne inštitúcie môžu už len kúriť a svietiť</td><td style="white-space:normal">Jana Močková</td><td>23 805</td></tr><tr><td>11</td><td class="nm" style="white-space:normal">Šimkovičovú vo Východnej opakovane vypískali. „Nebojím sa pána,“ spievali jej folkloristi (+ video)</td><td style="white-space:normal">Nina Janešíková</td><td>127 011</td></tr><tr><td>11</td><td class="nm" style="white-space:normal">Málokedy je dôvodom nevery len nespokojnosť vo vzťahu, sú to skôr nenaplnené vzťahy z detstva, hovorí psychoanalytička Rosenfeld</td><td style="white-space:normal">Kristína Böhmer</td><td>23 316</td></tr><tr><td>9</td><td class="nm" style="white-space:normal">O príbeh mojej rodiny sa nikto nezaujímal, hovorí vnučka pôvodných majiteľov slávnej bratislavskej vily od Weinwurma</td><td style="white-space:normal">Andrea Kleine</td><td>58 713</td></tr><tr><td>9</td><td class="nm" style="white-space:normal">Režisérka Fabiánová: Ľudia si vedia byť brutálne neverní, ale tíško, len nech sa o tom nikde nerozpráva</td><td style="white-space:normal">Jana Močková</td><td>57 093</td></tr><tr><td>8</td><td class="nm" style="white-space:normal">Lovestream ukazuje, čo to znamená, keď je festival postavený na veľkých menách</td><td style="white-space:normal">Oliver Rehák</td><td>22 497</td></tr></tbody></table></div>
+  <div class="takeaway"><b>Odporúčanie pre rubriku:</b> keďže Kultúra slúži hlavne retencii, jej hlavnou úlohou je dávať predplatiteľom dôvod zostať — recenzie a kultúrny servis udržať v objeme a merať ich čítanosťou predplatiteľov. Konverzný „bonus" hľadať v politicko-kultúrnych kauzách a osobných príbehoch s kultúrnym presahom (Heroine, vzťahy, duševné zdravie).</div>
+
+
+  <h2 id="matica">2 · Čo písať viac a čo menej (portfóliová matica)</h2>
+  <p>Matica umiestňuje témy podľa dvoch percentilov: vodorovne hodnota, ktorú téma prináša, zvisle počet publikovaných článkov (objem). Diagonála = rovnováha medzi tým, koľko o téme píšeme a koľko prináša. Akčné sú odchýlky:</p>
+  <ul class="clean">
+    <li><b style="color:#2f7d32">Zelené pole (vpravo dole) — PÍSAŤ VIAC:</b> téma prináša veľa hodnoty, hoci jej píšeme málo.</li>
+    <li><b style="color:#c0392b">Červené pole (vľavo hore) — PREHODNOTIŤ:</b> téme venujeme veľa článkov, ale hodnoty prináša (relatívne) málo.</li>
+    <li><b style="color:#3b6ea5">Modré polia — UDRŽAŤ:</b> objem a hodnota zhruba zodpovedajú.</li>
+  </ul>
+
+  <h3>Pohľad len cez konverzie</h3>
+  <div class="chart"><div id="c_spmx1"></div></div>
+  <div class="cap">Os X = percentil počtu konverzií, os Y = percentil počtu článkov. Pomenovaná je čo najväčšia časť tém bez prekrytia.</div>
+  <h4>Konkrétne odporúčania z matice (konverzie)</h4>
+  <ul class="clean">
+    <li><b style="color:#2f7d32">Písať viac (zelené):</b> Heroine — konvertuje nadpriemerne pri malom počte článkov.</li>
+    <li><b style="color:#c0392b">Prehodnotiť objem (červené):</b> Album týždňa, Tipy na filmy a seriály — pri danom objeme prinášajú najmenej konverzií.</li>
+  </ul>
+  <div class="takeaway"><b>Zhrnutie:</b> keďže celá rubrika konvertuje podpriemerne, cez konverzie sa vychyľuje málo tém. „Písať viac" jasne vychádza pri osobnejšom obsahu (Heroine), „prehodnotiť" pri pravidelných recenzných rubrikách. Dôležitejší je však širší pohľad nižšie — Kultúra prináša hodnotu najmä dosahom a lojalitou.</div>
+
+  <h3>Širší pohľad: agregovaná hodnota témy (konverzie + dosah)</h3>
+  <p>Predchádzajúca matica brala do úvahy len konverzie. Tento graf pridáva <b>dosah</b> (pageviews na článok — prísun nových čitateľov). Agregovaná hodnota na článok je vážený priemer dvoch zložiek prepočítaných na percentil: <b>konverzie 50 % + dosah 50 %</b>. Samostatnú lojalitnú zložku sme vynechali — absolútna čítanosť predplatiteľmi takmer splývala s dosahom, takže nepridávala vlastný signál (lojalitu rieši samostatný graf vyššie). Os X = percentil tejto hodnoty, os Y = počet článkov.</p>
+  <p class="muted">Na rozdiel od prvej matice (celkový počet konverzií) tu meriame hodnotu <b>na článok</b> — preto sa zviditeľnia témy, ktoré píšeme málo, ale každý ich kus zaberie.</p>
+  <div class="chart"><div id="c_spmx2"></div></div>
+  <div class="cap">Zelené = vysoká hodnota pri malom objeme (písať viac), červené = veľký objem pri nízkej hodnote (prehodnotiť).</div>
+  <h4>Čo písať viac podľa agregovanej hodnoty</h4>
+  <ul class="clean">
+    <li><b style="color:#2f7d32">Zelené pole:</b> Heroine + Lukáš Machala, Ficova vláda, LGBTI+, Rodičovstvo, Vojna na Ukrajine.</li>
+    <li><b style="color:#c0392b">Červené pole:</b> Album týždňa, Tipy na filmy a seriály + Knihy, Filmy, Hudba, Divadlo, Vizuálne umenie.</li>
+  </ul>
+  <h4>Čo pribudlo oproti grafu konverzií</h4>
+  <p>Do odporúčaných „písať viac" sa <b>po novom</b> dostali <b>Lukáš Machala</b>, <b>Ficova vláda</b>, <b>LGBTI+</b>, <b>Rodičovstvo</b> a <b>Vojna na Ukrajine</b>. Spája ich, že popri konverzii prinášajú <b>veľký dosah a/alebo silnú čítanosť predplatiteľmi</b> — hodnotu, ktorú samotná konverzia nevyzdvihla. Ide najmä o politicko-kultúrny konflikt (Machala, Fico) a identitno-osobné témy.</p>
+  <div class="takeaway"><b>Ako to čítať a čo robiť:</b> ak od Kultúry nechceme len konverzie, ale hlavne dosah a udržanie predplatiteľov, oplatí sa škálovať politicko-kultúrne kauzy a osobné/identitné presahy. <b>Kľúčová nuansa:</b> do červeného poľa padli klasické recenzie (Knihy, Filmy, Hudba, Divadlo, Vizuálne umenie) — <b>nie preto, že by boli zbytočné</b>. Majú vysokú čítanosť predplatiteľmi a sú jadrom identity rubriky; ich hodnota je <b>retenčná</b>, preto ich netreba rušiť ani obmedzovať — len ich nehodnotiť konverzne. Kultúra je nástroj na udržanie predplatiteľov, nie na ich získavanie.</div>
+
+  <h2 id="metodika">Metodika a rozhodnutia</h2>
+  <p class="muted">
+  Zdroj: bežné články v rubrike Kultúra (júl 2025 – jún 2026), po odstránení riadkov s menej než 100 pageviews. Autori: 8 pravidelných redaktorov vybraných po konzultácii; vylúčené inštitucionálne podpisy, syndikované zdroje, kreslení autori a autori píšuci prevažne do iných rubrík. Pri spoluautorstve sa článok počíta každému z autorov.
+  Extrémne virálne články zostávajú v dátach, popri priemere uvádzame aj medián (odolný voči nim). Pojmy: „konverzie" = počet konverzií; „% predpl." = podiel pageviews od predplatiteľov (lojalita); „dosah" = pageviews; „efektivita" = konverzie na 1000 pageviews; „agregovaná hodnota na článok" = vážený priemer percentilov konverzií (50 %) a dosahu (50 %); samostatná lojalitná zložka bola vypustená, lebo absolútna čítanosť predplatiteľmi takmer splýva s dosahom.
+  </p>
+  <footer>Analýza pripravená pre Denník N · rubrika Kultúra · dáta júl 2025 – jún 2026 · grafy sú interaktívne (kurzor zobrazí detail).</footer>
+</div>
+<script>
+const D = {"sp_authors": [{"name": "Jana Močková", "lbl": "Jana Močková", "n": 104, "conv_total": 201.0, "conv_avg": 1.9326923076923077, "conv_med": 1.0, "pv_avg": 19204.673076923078, "pv_total": 1997286.0, "sub_ratio": 48.34965865384615, "eff": 0.10976843180567063, "depth": 2.4730119858532467, "subreach": 9285.393878279401}, {"name": "Oliver Rehák", "lbl": "Oliver Rehák", "n": 102, "conv_total": 169.0, "conv_avg": 1.6568627450980393, "conv_med": 1.0, "pv_avg": 14010.950980392157, "pv_total": 1429117.0, "sub_ratio": 53.715822549019606, "eff": 0.12737173453546036, "depth": 2.066411371745286, "subreach": 7526.097566057574}, {"name": "Peter Bálik", "lbl": "Peter Bálik", "n": 96, "conv_total": 126.0, "conv_avg": 1.3125, "conv_med": 0.0, "pv_avg": 10442.083333333334, "pv_total": 1002440.0, "sub_ratio": 55.24870416666667, "eff": 0.11963315593389835, "depth": 2.1387400934253162, "subreach": 5769.115729670139}, {"name": "Patrik Garaj", "lbl": "Patrik Garaj", "n": 87, "conv_total": 67.0, "conv_avg": 0.7701149425287356, "conv_med": 0.0, "pv_avg": 8002.045977011494, "pv_total": 696178.0, "sub_ratio": 62.85022068965517, "eff": 0.08827756364442553, "depth": 2.1569664019145587, "subreach": 5029.303556239397}, {"name": "Dominika Chrastová", "lbl": "Dominika Chrastová", "n": 29, "conv_total": 46.0, "conv_avg": 1.5862068965517242, "conv_med": 1.0, "pv_avg": 11133.448275862069, "pv_total": 322870.0, "sub_ratio": 60.06086206896551, "eff": 0.215333866458895, "depth": 2.2003633726253935, "subreach": 6686.845012485136}, {"name": "Jana Šlinská", "lbl": "Jana Šlinská", "n": 15, "conv_total": 9.0, "conv_avg": 0.6, "conv_med": 0.0, "pv_avg": 4173.466666666666, "pv_total": 62602.0, "sub_ratio": 66.62456666666667, "eff": 0.15148559820861365, "depth": 1.3491315533140136, "subreach": 2780.5540816444445}, {"name": "Vitalia Bella", "lbl": "Vitalia Bella", "n": 12, "conv_total": 33.0, "conv_avg": 2.75, "conv_med": 1.5, "pv_avg": 17958.416666666668, "pv_total": 215501.0, "sub_ratio": 55.72629166666667, "eff": 0.14951002825923287, "depth": 2.3027631691391695, "subreach": 10007.559650381945}, {"name": "Vítek Svoboda", "lbl": "Vítek Svoboda", "n": 11, "conv_total": 13.0, "conv_avg": 1.1818181818181819, "conv_med": 1.0, "pv_avg": 13657.0, "pv_total": 150227.0, "sub_ratio": 58.07714545454546, "eff": 0.09975723868516283, "depth": 2.5167492116190746, "subreach": 7931.595754727273}], "sp_tags": [{"name": "Rozhovory", "n": 202, "conv_total": 413.0, "conv_avg": 2.0445544554455446, "conv_med": 1.0, "pv_avg": 16481.20792079208, "pv_total": 3329204.0, "sub_ratio": 52.70935990099009, "eff": 0.14395738368386835, "depth": 3.0123186720855455, "lbl": "Rozhovory", "subreach": 8687.139199000781}, {"name": "Hudba", "n": 204, "conv_total": 275.0, "conv_avg": 1.3480392156862746, "conv_med": 1.0, "pv_avg": 10811.573529411764, "pv_total": 2205561.0, "sub_ratio": 55.829936764705884, "eff": 0.14044217142365908, "depth": 2.2279106697566373, "lbl": "Hudba", "subreach": 6036.094664740268}, {"name": "Filmy", "n": 207, "conv_total": 263.0, "conv_avg": 1.2705314009661837, "conv_med": 1.0, "pv_avg": 12271.130434782608, "pv_total": 2540124.0, "sub_ratio": 57.29477922705314, "eff": 0.1130912596977818, "depth": 2.4559220337881302, "lbl": "Filmy", "subreach": 7030.717091272421}, {"name": "Martina Šimkovičová", "n": 105, "conv_total": 208.0, "conv_avg": 1.980952380952381, "conv_med": 1.0, "pv_avg": 19389.58095238095, "pv_total": 2035906.0, "sub_ratio": 47.18315333333333, "eff": 0.12177244569971467, "depth": 2.371485295624751, "lbl": "Martina Šimkovičová", "subreach": 9148.615711452696}, {"name": "Knihy", "n": 156, "conv_total": 174.0, "conv_avg": 1.1153846153846154, "conv_med": 0.5, "pv_avg": 9984.878205128205, "pv_total": 1557641.0, "sub_ratio": 60.95528717948717, "eff": 0.10576594729400988, "depth": 2.6601365841915516, "lbl": "Knihy", "subreach": 6086.311184457922}, {"name": "Vzťahy", "n": 70, "conv_total": 144.0, "conv_avg": 2.057142857142857, "conv_med": 1.0, "pv_avg": 16236.014285714286, "pv_total": 1136521.0, "sub_ratio": 56.723994285714284, "eff": 0.15260200495070406, "depth": 2.533548290105082, "lbl": "Vzťahy", "subreach": 9209.715815656326}, {"name": "Životy žien", "n": 76, "conv_total": 131.0, "conv_avg": 1.7236842105263157, "conv_med": 1.0, "pv_avg": 15056.921052631578, "pv_total": 1144326.0, "sub_ratio": 55.52332894736842, "eff": 0.11788622716611905, "depth": 2.761145181968677, "lbl": "Životy žien", "subreach": 8360.103805398197}, {"name": "Duševné zdravie", "n": 60, "conv_total": 121.0, "conv_avg": 2.0166666666666666, "conv_med": 1.0, "pv_avg": 14080.683333333332, "pv_total": 844841.0, "sub_ratio": 55.86204666666666, "eff": 0.17800753390415827, "depth": 2.5169151587210385, "lbl": "Duševné zdravie", "subreach": 7865.757894652221}, {"name": "Životy mužov", "n": 44, "conv_total": 107.0, "conv_avg": 2.4318181818181817, "conv_med": 2.0, "pv_avg": 17692.909090909092, "pv_total": 778488.0, "sub_ratio": 55.44790681818183, "eff": 0.13715548717898987, "depth": 2.877419270344558, "lbl": "Životy mužov", "subreach": 9810.347746152895}, {"name": "Seriály", "n": 67, "conv_total": 95.0, "conv_avg": 1.4179104477611941, "conv_med": 1.0, "pv_avg": 12071.940298507463, "pv_total": 808820.0, "sub_ratio": 61.401344776119394, "eff": 0.11042722844939454, "depth": 2.234390228437829, "lbl": "Seriály", "subreach": 7412.333683853864}, {"name": "Vizuálne umenie", "n": 89, "conv_total": 87.0, "conv_avg": 0.9775280898876404, "conv_med": 1.0, "pv_avg": 8193.303370786516, "pv_total": 729204.0, "sub_ratio": 54.455026966292124, "eff": 0.12976834159003803, "depth": 1.9934806237794418, "lbl": "Vizuálne umenie", "subreach": 4461.665559991919}, {"name": "Heroine", "n": 37, "conv_total": 78.0, "conv_avg": 2.108108108108108, "conv_med": 1.0, "pv_avg": 14780.108108108108, "pv_total": 546864.0, "sub_ratio": 54.140729729729735, "eff": 0.13794976627329725, "depth": 2.79168120103963, "lbl": "Heroine", "subreach": 8002.058384572682}, {"name": "Divadlo", "n": 52, "conv_total": 73.0, "conv_avg": 1.4038461538461537, "conv_med": 1.0, "pv_avg": 12260.903846153846, "pv_total": 637567.0, "sub_ratio": 54.302194230769224, "eff": 0.17222357720767925, "depth": 2.5208638781351334, "lbl": "Divadlo", "subreach": 6657.939820986316}, {"name": "Lukáš Machala", "n": 25, "conv_total": 69.0, "conv_avg": 2.76, "conv_med": 2.0, "pv_avg": 25672.48, "pv_total": 641812.0, "sub_ratio": 43.012336, "eff": 0.14620228630388893, "depth": 2.370462556654, "lbl": "Lukáš Machala", "subreach": 11042.333357132798}, {"name": "Mladí", "n": 37, "conv_total": 60.0, "conv_avg": 1.6216216216216217, "conv_med": 1.0, "pv_avg": 11254.216216216217, "pv_total": 416406.0, "sub_ratio": 56.37400810810811, "eff": 0.1688922632663428, "depth": 2.2556246408438425, "lbl": "Mladí", "subreach": 6344.452762233747}, {"name": "Tipy na filmy a seriály", "n": 50, "conv_total": 54.0, "conv_avg": 1.08, "conv_med": 1.0, "pv_avg": 9375.62, "pv_total": 468781.0, "sub_ratio": 65.433016, "eff": 0.10852051209791848, "depth": 1.7271786995082283, "lbl": "Tipy na filmy a seriály", "subreach": 6134.7509346992}, {"name": "Rodičovstvo", "n": 30, "conv_total": 51.0, "conv_avg": 1.7, "conv_med": 1.0, "pv_avg": 18639.633333333335, "pv_total": 559189.0, "sub_ratio": 52.271053333333334, "eff": 0.11807111975334214, "depth": 2.78499856238671, "lbl": "Rodičovstvo", "subreach": 9743.132680804445}, {"name": "Silné ženy", "n": 33, "conv_total": 44.0, "conv_avg": 1.3333333333333333, "conv_med": 0.0, "pv_avg": 11348.575757575758, "pv_total": 374503.0, "sub_ratio": 53.66360303030304, "eff": 0.0997255028506852, "depth": 2.5910945994058228, "lbl": "", "subreach": 6090.0546441386605}, {"name": "Ficova vláda", "n": 23, "conv_total": 42.0, "conv_avg": 1.826086956521739, "conv_med": 1.0, "pv_avg": 18080.0, "pv_total": 415840.0, "sub_ratio": 44.146491304347826, "eff": 0.10113887730452918, "depth": 2.2246740681630834, "lbl": "Ficova vláda", "subreach": 7981.685627826087}, {"name": "História", "n": 36, "conv_total": 37.0, "conv_avg": 1.0277777777777777, "conv_med": 1.0, "pv_avg": 15402.111111111111, "pv_total": 554476.0, "sub_ratio": 53.17520555555556, "eff": 0.07660824035860615, "depth": 3.255778835141931, "lbl": "", "subreach": 8190.104243228396}, {"name": "Vojna na Ukrajine", "n": 30, "conv_total": 36.0, "conv_avg": 1.2, "conv_med": 1.0, "pv_avg": 17781.266666666666, "pv_total": 533438.0, "sub_ratio": 51.25870666666667, "eff": 0.0944331233709367, "depth": 2.611607422247276, "lbl": "Vojna na Ukrajine", "subreach": 9114.447322284444}, {"name": "LGBTI+", "n": 21, "conv_total": 30.0, "conv_avg": 1.4285714285714286, "conv_med": 1.0, "pv_avg": 13958.285714285714, "pv_total": 293124.0, "sub_ratio": 56.622042857142866, "eff": 0.1550226612548079, "depth": 2.4831359946183964, "lbl": "", "subreach": 7903.466519265307}, {"name": "Festival Pohoda", "n": 23, "conv_total": 27.0, "conv_avg": 1.173913043478261, "conv_med": 0.0, "pv_avg": 11280.04347826087, "pv_total": 259441.0, "sub_ratio": 55.16599130434783, "eff": 0.09034244384387094, "depth": 1.7577144314795106, "lbl": "", "subreach": 6222.747804344046}, {"name": "Album týždňa", "n": 45, "conv_total": 21.0, "conv_avg": 0.4666666666666667, "conv_med": 0.0, "pv_avg": 3980.1555555555556, "pv_total": 179107.0, "sub_ratio": 63.58951333333332, "eff": 0.14914007969259574, "depth": 1.9700778191424904, "lbl": "Album týždňa", "subreach": 2530.961547687407}, {"name": "Dnes píše", "n": 34, "conv_total": 14.0, "conv_avg": 0.4117647058823529, "conv_med": 0.0, "pv_avg": 4695.529411764706, "pv_total": 159648.0, "sub_ratio": 62.6953794117647, "eff": 0.05774947083532739, "depth": 1.542064679134788, "lbl": "Dnes píše", "subreach": 2943.879980096886}, {"name": "High 5ive", "n": 33, "conv_total": 4.0, "conv_avg": 0.12121212121212122, "conv_med": 0.0, "pv_avg": 5424.212121212121, "pv_total": 178999.0, "sub_ratio": 66.68856666666667, "eff": 0.020215689152682882, "depth": 1.703098089687915, "lbl": "High 5ive", "subreach": 3617.32931659596}]};
+function med(a){a=a.slice().filter(v=>v!=null).sort((x,y)=>x-y);const n=a.length;if(!n)return 0;return n%2?a[(n-1)/2]:(a[n/2-1]+a[n/2])/2;}
+function scatter(div, rows, xk, yk, sk, ck, xt, yt, quad){
+  const xs=rows.map(r=>r[xk]), ys=rows.map(r=>r[yk]);
+  const mx=med(xs), my=med(ys);
+  const sizes=rows.map(r=>r[sk]||1); const smax=Math.max.apply(null,sizes);
+  const trace={x:xs,y:ys,text:rows.map(r=>r.lbl||''),customdata:rows.map(r=>r.name),
+    hovertemplate:'<b>%{customdata}</b><br>'+xt+': %{x:,.1f}<br>'+yt+': %{y:,.1f}<extra></extra>',
+    mode:'markers+text',textposition:'top center',textfont:{size:10,color:'#222'},
+    marker:{size:sizes.map(s=>9+30*Math.sqrt(s/smax)),color:rows.map(r=>r[ck]),colorscale:'RdYlBu',reversescale:true,
+      showscale:true,colorbar:{title:{text:'% predpl.',side:'right'},thickness:12,len:0.55,x:1.02},
+      line:{width:1,color:'#fff'},opacity:0.86}};
+  const shapes=[{type:'line',x0:mx,x1:mx,yref:'paper',y0:0,y1:1,line:{dash:'dash',color:'#5b6472',width:2.5}},
+    {type:'line',y0:my,y1:my,xref:'paper',x0:0,x1:1,line:{dash:'dash',color:'#5b6472',width:2.5}}];
+  const ann=(quad||[]).map(q=>({x:q.x,y:q.y,xref:'paper',yref:'paper',xanchor:q.xa||'center',text:q.t,showarrow:false,font:{size:10,color:'#586074'},bgcolor:'rgba(255,255,255,0.82)',bordercolor:'rgba(0,0,0,0.10)',borderwidth:1,borderpad:3}));
+  Plotly.newPlot(div,[trace],{margin:{t:12,r:70,b:52,l:64},height:520,
+    xaxis:{title:{text:xt},zeroline:false,gridcolor:'#eee'},yaxis:{title:{text:yt},zeroline:false,gridcolor:'#eee'},
+    shapes:shapes,annotations:ann,paper_bgcolor:'#fff',plot_bgcolor:'#fff'},{displayModeBar:false,responsive:true});
+}
+const Q_DC=[{x:0.97,y:0.97,t:'čítané + konvertujúce',xa:'right'},{x:0.03,y:0.97,t:'nišové konverzné',xa:'left'},{x:0.03,y:0.03,t:'slabé',xa:'left'},{x:0.97,y:0.03,t:'dosah bez konverzie',xa:'right'}];
+const Q_SPORT_AUTH=[{x:0.97,y:0.97,t:'HVIEZDY — dosah aj konverzia',xa:'right'},{x:0.03,y:0.97,t:'EFEKTÍVNI KONVERTORI — vysoká konverzia, nižší dosah',xa:'left'},{x:0.03,y:0.03,t:'SLABÍ / nišová lojalita',xa:'left'},{x:0.97,y:0.03,t:'DOSAHOVÉ MOTORY — veľký dosah, slabá konverzia',xa:'right'}];
+function pctRank(vals){const s=vals.slice().sort((a,b)=>a-b);const N=vals.length;return vals.map(v=>{let c=0;for(const x of s){if(x<=v)c++;}return c/N*100;});}
+function aggValuePerArticle(rows){
+  const c=pctRank(rows.map(r=>r.conv_avg)), p=pctRank(rows.map(r=>r.pv_avg));
+  return rows.map((r,i)=>0.5*c[i]+0.5*p[i]);
+}
+function quadcore(div, rows, X, Y, xtitle, dense, convword){
+  let labels;
+  if(dense){
+    const order=rows.map((r,i)=>i);
+    const isq=i=>((X[i]>50&&Y[i]<50)||(X[i]<50&&Y[i]>50))?0:1;
+    order.sort((a,b)=>isq(a)-isq(b)||(X[b]-X[a]));
+    const placed=[];const show=new Array(rows.length).fill(false);
+    for(const i of order){var ok=true;for(const j of placed){if(Math.abs(Y[i]-Y[j])<2.0&&Math.abs(X[i]-X[j])<13){ok=false;break;}}if(ok){show[i]=true;placed.push(i);}}
+    labels=rows.map((r,i)=>show[i]?r.name:'');
+  } else { labels=rows.map((r,i)=> ((X[i]>50&&Y[i]<50)||(X[i]<50&&Y[i]>50)) ? r.name : ''); }
+  const colors=rows.map((r,i)=> (X[i]>50&&Y[i]<50)?'#2f7d32' : (X[i]<50&&Y[i]>50)?'#c0392b' : '#5a7a9a');
+  const trace={x:X,y:Y,text:labels,customdata:rows.map(r=>[r.name,r.n]),
+    hovertemplate:'<b>%{customdata[0]}</b><br>'+convword+': %{x:.0f}. percentil<br>článkov: %{customdata[1]}<extra></extra>',
+    mode:'markers+text',textposition:rows.map((r,i)=>X[i]>78?'middle left':'middle right'),textfont:{size:8,color:'#333'},
+    marker:{size:9,color:colors,line:{width:1,color:'#fff'},opacity:0.9}};
+  const rect=(x0,x1,y0,y1,col)=>({type:'rect',x0:x0,x1:x1,y0:y0,y1:y1,fillcolor:col,line:{width:0},layer:'below',opacity:0.16});
+  const shapes=[rect(0,50,50,100,'#c0392b'),rect(50,100,50,100,'#3b6ea5'),rect(0,50,0,50,'#3b6ea5'),rect(50,100,0,50,'#2f7d32'),
+    {type:'line',x0:50,x1:50,y0:0,y1:100,line:{dash:'dash',color:'#333',width:2}},
+    {type:'line',x0:0,x1:100,y0:50,y1:50,line:{dash:'dash',color:'#333',width:2}}];
+  const ann=[{x:25,y:98,text:'PREHODNOTIŤ — veľa článkov, nízka hodnota',showarrow:false,font:{size:11,color:'#c0392b'}},
+    {x:75,y:98,text:'UDRŽAŤ',showarrow:false,font:{size:11,color:'#3b6ea5'}},
+    {x:25,y:2,text:'UDRŽAŤ',showarrow:false,font:{size:11,color:'#3b6ea5'}},
+    {x:75,y:2,text:'PÍSAŤ VIAC — vysoká hodnota, málo článkov',showarrow:false,font:{size:11,color:'#2f7d32'}}];
+  Plotly.newPlot(div,[trace],{margin:{t:14,r:20,b:52,l:58},height:760,
+    xaxis:{title:{text:xtitle},range:[-2,108],zeroline:false,gridcolor:'#f0f0f0'},
+    yaxis:{title:{text:'Percentil — počet publikovaných článkov'},range:[-2,108],zeroline:false,gridcolor:'#f0f0f0'},
+    shapes:shapes,annotations:ann,paper_bgcolor:'#fff',plot_bgcolor:'#fff'},{displayModeBar:false,responsive:true});
+}
+const Q_TOT=[{x:0.97,y:0.97,t:'najväčší celkový prínos',xa:'right'},{x:0.03,y:0.97,t:'veľa konverzií pri menšom dosahu',xa:'left'},{x:0.03,y:0.03,t:'menší celkový prínos',xa:'left'},{x:0.97,y:0.03,t:'veľký dosah, menej konverzií',xa:'right'}];
+scatter('c_authtot',D.sp_authors,'pv_total','conv_total','n','sub_ratio','Pageviews spolu (celkový dosah)','Konverzie spolu',Q_TOT);
+scatter('c_sptag',D.sp_tags,'pv_avg','conv_avg','n','sub_ratio','Pageviews na článok (dosah)','Konverzie na článok',Q_DC);
+quadcore('c_spmx1',D.sp_tags,pctRank(D.sp_tags.map(r=>r.conv_total)),pctRank(D.sp_tags.map(r=>r.n)),'Percentil — počet konverzií (predané predplatné)',true,'konverzie');
+quadcore('c_spmx2',D.sp_tags,pctRank(aggValuePerArticle(D.sp_tags)),pctRank(D.sp_tags.map(r=>r.n)),'Percentil — agregovaná hodnota na článok (konverzie 50 % + dosah 50 %)',true,'agreg. hodnota');
+</script>
+</body></html>
